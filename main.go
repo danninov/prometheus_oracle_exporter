@@ -56,7 +56,7 @@ type Exporter struct {
 var (
   // Version will be set at build time.
   Version       = "1.1.5"
-  listenAddress = flag.String("web.listen-address", ":9161", "Address to listen on for web interface and telemetry.")
+  listenAddress = flag.String("web.listen-address", ":9162", "Address to listen on for web interface and telemetry.")
   metricPath    = flag.String("web.telemetry-path", "/metrics", "Path under which to expose metrics.")
   pMetrics      = flag.Bool("defaultmetrics", true, "Expose standard metrics")
   pTabRows      = flag.Bool("tablerows", false, "Expose Table rows (CAN TAKE VERY LONG)")
